@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel>
+  <Hotel Rating="3.9">
+    <Name>Best Western Mccarran Inn</Name>
+    <Phone>1(800)568-8520</Phone>
+    <Address NearestAirport="Harry Reid International Airport">
+      <Number>4970</Number>
+      <Street>Paradise Rd</Street>
+      <City>Las Vegas</City>
+      <State>Nevada</State>
+      <Zip>89119</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.2">
+    <Name>Best Western Plus Las Vegas West</Name>
+    <Phone>1(800)568-8520</Phone>
+    <Address NearestAirport="Harry Reid International Airport">
+      <Number>8668</Number>
+      <Street>W Sahara Ave</Street>
+      <City>Las Vegas</City>
+      <State>Nevada</State>
+      <Zip>89117</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.5">
+    <Name>The Carriage House</Name>
+	<Name>The Carriage House Las Vegas</Name>
+    <Phone>(702)798-1020</Phone>
+    <Address NearestAirport="Harry Reid International Airport">
+      <Number>105</Number>
+      <Street>East Harmon Avenue</Street>
+      <City>Las Vegas</City>
+      <State>Nevada</State>
+      <Zip>89109</Zip>
+    </Address>
+  </Hotel>
+	<Hotel>
+		<Name>Silverton Casino Lodge</Name>
+		<Phone>1(702)919-7677</Phone>
+		<Address NearestAirport="Harry Reid International Airport">
+			<Number>3333</Number>
+			<Street>blue Diamond Road</Street>
+			<City>Las Vegas</City>
+			<State>Nevada</State>
+			<Zip>89139</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.9">
+		<Name>The Westin Las Vegas Hotel And Spa</Name>
+		<Phone>1(844)631-0595</Phone>
+		<Address NearestAirport="Harry Reid International Airport">
+			<Number>160</Number>
+			<Street>East Flamingo Road</Street>
+			<City>Las Vegas</City>
+			<State>Nevada</State>
+			<Zip>89109</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.9">
+		<Name>Downtowner Boutique Hotel</Name>
+		<Phone>1(725)208-5653</Phone>
+		<Address NearestAirport="Harry Reid International Airport">
+			<Number>129</Number>
+			<Street>N 8th St</Street>
+			<City>Las Vegas</City>
+			<State>Nevada</State>
+			<Zip>89101</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.7">
+		<Name>Four Seasons Hotel Las Vegas</Name>
+		<Phone>1(702)632-5000</Phone>
+		<Address>
+			<Number>3960</Number>
+			<Street>S Las Vegas Blvd</Street>
+			<City>Las Vegas</City>
+			<State>Nevada</State>
+			<Zip>89119</Zip>
+	</Hotel>
+	<Hotel Rating="4.4">
+		<Name>Trump International Hotel Las Vegas</Name>
+		<Phone>1(702)982-0000</Phone>
+		<Address NearestAirport="Harry Reid International Airport">
+			<Number>2000</Number>
+			<Street>Fashion Show Drive</Street>
+			<City>Las Vegas</City>
+			<State>Nevada</State>
+			<Zip>89109</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Bellagio Las Vegas</Name>
+		<Address NearestAirport="Harry Reid International Airport">
+			<Number>3600</Number>
+			<Street>Las Vegas Blvd</Street>
+			<City>Las Vegas</City>
+			<State>Nevada</State>
+			<Zip>89109</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Courtyard Las Vegas Convention Center</Name>
+		<Phone>1(844)631-0595</Phone>
+		<Address NearestAirport="Harry Reid International Airport">
+			<Number>3275</Number>
+			<Street>Paradise Rd</Street>
+			<City>Las Vegas</City>
+			<State>Nevada</State>
+			<Zip>89109</Zip>
+		</Address>
+	</Hotel>
+</Hotel>
