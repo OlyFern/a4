@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotel>
+<Hotels xmlns="https://olyfern.github.io/a4/Hotels.xsd">
   <Hotel Rating="3.9">
     <Name>Best Western Mccarran Inn</Name>
     <Phone>1(800)568-8520</Phone>
