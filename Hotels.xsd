@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<schema id="XMLSchema1"
+    targetNamespace="http://tempuri.org/XMLSchema1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:mstns="http://tempuri.org/XMLSchema1.xsd"
+>
+	<element name="Address">
+		<complexType>
+			<sequence>
+				<element name="Number" type="string"/>
+				<element name="Street" type="string"/>
+				<element name="City" type="string"/>
+				<element name="State" type="string"/>
+				<element name="Zip" type="string"/>
+			</sequence>
+			<attribute name="NearestAirport" type="string"/>
+		</complexType>
+	</element>
+	<element name="Hotel">
+		<complexType>
+			<sequence>
+				<element name="Name" type="string"/>
+				<element name="Phone" type="string" maxOccurs="unbounded" />
+				<element ref="mstns:Address"/>
+			</sequence>
+			<attribute name="Rating" type="string"/>
+		</complexType>
+	</element>
+	<element name="Hotels">
+		<complexType>
+			<sequence>
+				<element ref="mstns:Hotel" maxOccurs="unbounded"/>
+			</sequence>
+		</complexType>
+	</element>
+	
+</schema>
