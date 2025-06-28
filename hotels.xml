@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns="http://tempuri.org/XMLSchema1.xsd">
+  <Hotel Rating="Rating1">
+    <Name>Name1</Name>
+    <Phone>Phone1</Phone>
+    <Phone>Phone2</Phone>
+    <Phone>Phone3</Phone>
+    <Address NearestAirport="NearestAirport1">
+      <Number>Number1</Number>
+      <Street>Street1</Street>
+      <City>City1</City>
+      <State>State1</State>
+      <Zip>Zip1</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="Rating2">
+    <Name>Name2</Name>
+    <Phone>Phone4</Phone>
+    <Phone>Phone5</Phone>
+    <Phone>Phone6</Phone>
+    <Address NearestAirport="NearestAirport2">
+      <Number>Number2</Number>
+      <Street>Street2</Street>
+      <City>City2</City>
+      <State>State2</State>
+      <Zip>Zip2</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="Rating3">
+    <Name>Name3</Name>
+    <Phone>Phone7</Phone>
+    <Phone>Phone8</Phone>
+    <Phone>Phone9</Phone>
+    <Address NearestAirport="NearestAirport3">
+      <Number>Number3</Number>
+      <Street>Street3</Street>
+      <City>City3</City>
+      <State>State3</State>
+      <Zip>Zip3</Zip>
+    </Address>
+  </Hotel>
+</Hotels>
