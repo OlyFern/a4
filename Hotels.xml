@@ -24,7 +24,6 @@
   </Hotel>
   <Hotel Rating="4.5">
     <Name>The Carriage House</Name>
-	<Name>The Carriage House Las Vegas</Name>
     <Phone>(702)798-1020</Phone>
     <Address NearestAirport="Harry Reid International Airport">
       <Number>105</Number>
@@ -76,6 +75,7 @@
 			<City>Las Vegas</City>
 			<State>Nevada</State>
 			<Zip>89119</Zip>
+		</Address>
 	</Hotel>
 	<Hotel Rating="4.4">
 		<Name>Trump International Hotel Las Vegas</Name>
@@ -90,6 +90,7 @@
 	</Hotel>
 	<Hotel>
 		<Name>Bellagio Las Vegas</Name>
+		<Phone>(888)987-6667</Phone>
 		<Address NearestAirport="Harry Reid International Airport">
 			<Number>3600</Number>
 			<Street>Las Vegas Blvd</Street>
