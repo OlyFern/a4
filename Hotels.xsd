@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<schema id="XMLSchema1"
-    targetNamespace="http://tempuri.org/XMLSchema1.xsd"
+<?xml version="1.0" encoding="utf-8"?>
+<schema id="HotelSchema"
+    targetNamespace="https://olyfern.github.io/a4/Hotels.xsd"
     elementFormDefault="qualified"
     xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:mstns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:ht="https://olyfern.github.io/a4/Hotels.xsd"
 >
 	<element name="Address">
 		<complexType>
@@ -14,7 +14,7 @@
 				<element name="State" type="string"/>
 				<element name="Zip" type="string"/>
 			</sequence>
-			<attribute name="NearestAirport" type="string"/>
+			<attribute name="NearestAirport" type="string" use="required"/>
 		</complexType>
 	</element>
 	<element name="Hotel">
@@ -22,7 +22,7 @@
 			<sequence>
 				<element name="Name" type="string"/>
 				<element name="Phone" type="string" maxOccurs="unbounded" />
-				<element ref="mstns:Address"/>
+				<element ref="ht:Address"/>
 			</sequence>
 			<attribute name="Rating" type="string"/>
 		</complexType>
@@ -30,7 +30,7 @@
 	<element name="Hotels">
 		<complexType>
 			<sequence>
-				<element ref="mstns:Hotel" maxOccurs="unbounded"/>
+				<element ref="ht:Hotel" maxOccurs="unbounded"/>
 			</sequence>
 		</complexType>
 	</element>
